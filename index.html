@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskMaster</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>TaskMaster</h1>
+        <p class="tagline">Your Smart Companion for Effortless Task Management</p>
+    </header>
+    <main>
+        <section id="task-form">
+            <h2>Add a New Task</h2>
+            <div class="form-group">
+                <label for="task-title">Title</label>
+                <input type="text" id="task-title" placeholder="Enter task title" required>
+            </div>
+            <div class="form-group">
+                <label for="task-desc">Description</label>
+                <textarea id="task-desc" placeholder="Enter task description"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="task-deadline">Deadline</label>
+                <input type="date" id="task-deadline">
+            </div>
+            <div class="form-group">
+                <label for="task-priority">Priority</label>
+                <select id="task-priority">
+                    <option value="High">High</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Low">Low</option>
+                </select>
+            </div>
+            <button id="add-task-btn" class="btn">Add Task</button>
+        </section>
+
+        <section id="task-list">
+            <h2>Your Tasks</h2>
+            <div id="task-container">
+                <!-- Tasks will be dynamically added here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>TaskMaster &copy; 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
