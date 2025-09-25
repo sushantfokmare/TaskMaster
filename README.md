@@ -31,8 +31,10 @@ It allows users to create, manage, and organize their daily tasks efficiently in
 
 # 📂 Project Structure
 
+```bash
 TaskMaster/
 ├── index.html      # Main HTML page
 ├── styles.css      # CSS styles
 ├── script.js       # JavaScript logic
 └── README.md       # Project documentation
+```
